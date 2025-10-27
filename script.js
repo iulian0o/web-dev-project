@@ -1,5 +1,5 @@
-import { formFactory } from "./utils/formFactory.js";
-import { putDataResponse } from "./utils/putData.js";
+import { formFactory } from "./formFactory.js";
+import { putDataResponse } from "./putData.js";
 
 const useRemote = true;
 
