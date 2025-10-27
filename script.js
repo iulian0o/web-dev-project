@@ -1,11 +1,11 @@
 import { formFactory } from "./formFactory.js";
 import { putDataResponse } from "./putData.js";
 
-const useRemote = true;
+const useRemote = false;
 
 const remoteURL = "https://easy-simple-users-rest-api.onrender.com/api/users";
 
-const localURL = "./data/response.json";
+const localURL = "./response.json";
 
 const alertBox = document.querySelector(".alert");
 
